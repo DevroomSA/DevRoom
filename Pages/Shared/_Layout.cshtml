@@ -28,7 +28,7 @@
         <link rel="stylesheet" type="text/css" href="~/css/font-awesome.min.css">
         <!-- animate css -->
         <link rel="stylesheet" type="text/css" href="~/css/animate.css">
-        <!-- owl.carousel css -->
+        <!-- taskowl.carousel css -->
         <link rel="stylesheet" type="text/css" href="~/css/owl.carousel.css">
         <link rel="stylesheet" type="text/css" href="~/css/slick.css">
         <!-- Video Player CSS -->
@@ -74,65 +74,43 @@
     </div>
     <!--End preloader here -->
     <!--Header Start-->
-    <header id="default-header" class="transparent-header">
-        <!-- Toolbar Start -->
-        <div class="toolbar-area hidden-sm hidden-xs">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-sm-7 col-xs-12">
-                        <div class="toolbar-contact">
-                            <ul>
-                                <li><i class="fa fa-phone"></i><a href="tel:+123456789">(+123) 456789</a></li>
+    <!-- <header id="default-header" class="transparent-header"> -->
+        <header id="default-header" style="background-color:dodgerblue">
+            <!-- Toolbar Start -->
+            <div class="toolbar-area hidden-sm hidden-xs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-7 col-xs-12">
+                            <div class="toolbar-contact">
+                                <ul>
+                                    <li><i class="fa fa-phone"></i><a href="tel:+123456789">082 474 7431</a></li>
 
-                                <li><i class="fa fa-mobile"></i><a href="tel:+123456789">(+123) 456789</a></li>
+                                    <li><i class="fa fa-mobile"></i><a href="tel:+123456789">082 299 3552</a></li>
 
-                                <li><i class="fa fa-envelope-o"></i><a href="mailto:support@devroomsa.com">support@devroomsa.com</a></li>
-                            </ul>
+                                    <li><i class="fa fa-envelope-o"></i><a href="mailto:support@devroomsa.com">support@devroomsa.com</a></li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6 col-sm-5 col-xs-12">
-                        <div class="toolbar-sl-share">
-                            <ul>
-                                <li class="follow">Follow us</li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-rss"></i></a></li>
-                                <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            </ul>
+                        <div class="col-lg-6 col-sm-5 col-xs-12">
+                            <div class="toolbar-sl-share">
+                                <ul>
+                                    <li class="follow">Follow us</li>
+                                    <li><a href="https://www.facebook.com/DevRoomSA/"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://www.twitter.com/DevRoom_SA/"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/company/devroom-sa/about/"><i class="fa fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- Toolbar End\-->
-        <!-- Header Menu Start-->
-        <div class="menu-area menu-sticky">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-5 hidden-sm hidden-xs">
-                        <nav class="rs-menu left-menu">
-                            <ul class="nav-menu">
-                                <!-- Home -->
-                                <li class="current-menu-item current_page_item menu-item-has-children">
-                                    <a href="#rs-header">Home</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="index.html">Home One</a></li>
-                                        <li><a href="index2.html">Home Two</a></li>
-                                        <li><a href="index3.html">Home Three</a></li>
-                                        <li><a href="index4.html">Home Four (One Page)</a></li>
-                                        <li class="active"><a href="index5.html">Home Five (One Page)</a></li>
-                                    </ul>
-                                </li>
-                                <!-- End Home -->
-                                <li><a href="#rs-about">About Us</a></li>
-                                <li><a href="#rs-services">Services</a></li>
-                                <li><a href="#rs-team">Team</a></li>
-                            </ul>
-                        </nav>
-                    </div>
+            <!-- Toolbar End\-->
+            <!-- Header Menu Start-->
+            <div class="menu-area menu-sticky" style="background-color:black">
+                <div class="container">
 
-                    <div class="col-md-2 p-0">
+
+                    @*<div class="col-md-2 p-0">
                         <div class="logo-area text-center hidden-sm hidden-xs">
                             <a href="index.html"><img src="~/images/logo-2.png" alt="logo"></a>
                         </div>
@@ -141,235 +119,220 @@
                         </div>
                     </div>
 
-                    <div class="col-md-5 hidden-sm hidden-xs">
-                        <nav class="rs-menu right-menu">
-                            <ul class="nav-menu">
-                                <li><a href="#rs-portfolio">Portfolio</a></li>
-                                <li><a href="#rs-customer">Testimonial</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="#rs-footer">Contact Us</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-                <div class="row hidden-lg hidden-md">
-                    <div class="col-sm-12">
-                        <div class="main-menu">
-                            <a class="rs-menu-toggle"><i class="fa fa-bars"></i>Menu</a>
-                            <nav class="rs-menu">
+                    <div class="row">
+                        <div class="col-md-5 hidden-sm hidden-xs">
+                            <nav class="rs-menu left-menu">
                                 <ul class="nav-menu">
-                                    <!-- Home -->
+
                                     <li class="current-menu-item current_page_item menu-item-has-children">
-                                        <a href="#">Home</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="index.html">Home One</a></li>
-                                            <li class="active"><a href="index2.html">Home Two</a></li>
-                                            <li><a href="index3.html">Home Three</a></li>
-                                            <li><a href="index4.html">Home Four (One Page)</a></li>
-                                            <li><a href="index5.html">Home Five (One Page)</a></li>
-                                        </ul>
+                                        <a href="#rs-header">Home</a>
                                     </li>
-                                    <!-- End Home -->
-                                    <li class="menu-item-has-children">
-                                        <a href="about-company.html">About Us</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="about-company.html">About Our Company</a></li>
-                                            <li><a href="company-overview.html">Company Overview</a></li>
-                                            <li><a href="our-history.html">Our History</a></li>
-                                            <li><a href="our-history-timeline.html">Our History Timeline</a></li>
-                                            <li><a href="management.html">Management</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="services.html">Services</a></li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Portfolio</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="portfolio.html">Portfolio</a></li>
-                                            <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Pages</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="faq.html">Faq</a></li>
-                                            <li><a href="error-404.html">Error Page</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Blog</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog.html">Blog</a></li>
-                                            <li><a href="blog-left.html">Blog Left Sidebar</a></li>
-                                            <li><a href="blog-right.html">Blog Right Sidebar</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="testimonial.html">Testimonial</a></li>
-                                    <li> <a href="contact.html">Contact</a> </li>
+                                    <li><a href="#rs-about">About Us</a></li>
+                                    <li><a href="#rs-services">Services</a></li>
+                                    <li><a href="#rs-team">Team</a></li>
+                                    <li><a href="#rs-footer">Contact Us</a></li>
                                 </ul>
                             </nav>
                         </div>
+
+                    </div>*@
+
+                    <div class="col-md-2 p-0">
+                        <div class="logo-area text-center hidden-sm hidden-xs">
+                            <a href="index.html"><img src="~/images/logo-2.png" alt="logo"></a>
+                        </div>
+                        <div class="logo-area hidden-lg hidden-md">
+                            <a href="#"><img src="~/images/logo.png" alt="logo"></a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-5 hidden-sm hidden-xs">
+                            <nav class="rs-menu left-menu">
+                                <ul class="nav-menu">
+
+                                    <!--<li class="current-menu-item current_page_item menu-item-has-children">
+                                        <a href="#rs-header">Home</a>
+                                    </li> -->
+                                    <li><a href="#rs-about">About Us</a></li>
+                                    <li><a href="#rs-services">Services</a></li>
+                                    <li><a href="#rs-team">Team</a></li>
+                                    <li><a href="#rs-contact">Contact Us</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                    </div>
+
+
+                    <div class="row hidden-lg hidden-md">
+                        <div class="col-sm-12">
+                            <div class="main-menu">
+                                <a class="rs-menu-toggle"><i class="fa fa-bars"></i>Menu</a>
+                                <nav class="rs-menu">
+                                    <ul class="nav-menu">
+                                        <!-- Home -->
+                                        <!--<li class="current-menu-item current_page_item menu-item-has-children">
+                                            <a href="#rs-header">Home</a>
+
+                                        </li> -->
+                                        <!-- End Home -->
+                                        <li class="menu-item-has-children">
+                                            <a href="#rs-about">About Us</a>
+                                        </li>
+                                        <li><a href="#rs-services">Services</a></li>
+                                        <li><a href="#rs-team">Team</a></li>
+                                        <li> <a href="#rs-footer">Contact</a> </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- Header Menu End -->
-    </header>
-    <!--Header End-->
+            <!-- Header Menu End -->
+        </header>
+        <!--Header End-->
 
-    <partial name="_CookieConsentPartial" />
+        <!--<partial name="_CookieConsentPartial" />-->
 
 
-    @RenderBody()
-    <hr />
-    <!-- Footer Start -->
-    <footer id="rs-footer" class="rs-footer">
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="about-widget">
-                            <img src="~/images/logo-2.png" alt="Footer Logo">
-                            <p>We create Prem ium Html Template for more than three years. Our team goal to reunite the elegance.</p>
-                            <ul class="footer-address">
-                                <li><i class="fa fa-phone"></i><a href="#">123-456-789</a></li>
-                                <li><i class="fa fa-envelope-o"></i><a href="#">support@devroomsa.com </a></li>
-                                <li><i class="fa fa-dribbble"></i><a href="#">www.devroom.com</a></li>
+        @RenderBody()
+        <hr />
+        <!-- Footer Start -->
+        <footer id="rs-footer" class="rs-footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="about-widget">
+                                <img src="~/images/logo-2.png" alt="Footer Logo">
+                                <p>We Implement, Deliver & Go Beyond.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <h5 class="footer-title">Reach Us Here</h5>
+                            <div class="recent-post-widget">
+                                <div class="post-item">
+
+                                    <ul class="sitemap-widget" style="text-decoration:none">
+                                        <li><i class="fa fa-phone"></i><a href="#">(072) 253 9158</a></li>
+                                        <li><i class="fa fa-envelope-o"></i><a href="#">support@devroomsa.com </a></li>
+                                        <li><i class="fa fa-dribbble"></i><a href="#">www.devroomsa.com</a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <h5 class="footer-title">QUICK LINKS</h5>
+                            <ul class="sitemap-widget">
+                                <li><a href="#rs-about">About Us</a></li>
+                                <li><a href="#rs-services">Services</a></li>
+                                <li><a href="#rs-team">Our Team</a></li>
+                                <li><a href="#rs-contact">Contact Us</a></li>
                             </ul>
                         </div>
-                    </div>
-                    <div class="col-md-3">
-                        <h5 class="footer-title">RECENT POSTS</h5>
-                        <div class="recent-post-widget">
-                            <div class="post-item">
-                                <div class="post-date">
-                                    <span>28</span>
-                                    <span>June</span>
-                                </div>
-                                <div class="post-desc">
-                                    <h5 class="post-title"><a href="#">Welcome to Responsive Theme</a></h5>
-                                    <span class="post-category">Design</span>
-                                </div>
+
+                        <div class="col-md-3">
+                            <h5 class="footer-title">Newsletter</h5>
+                            <!-- Newsletter Start -->
+                            <div class="news-info">
+                                <p class="news-note white-color">Enter email for news letter.</p>
                             </div>
-                            <div class="post-item">
-                                <div class="post-date">
-                                    <span>28</span>
-                                    <span>June</span>
-                                </div>
-                                <div class="post-desc">
-                                    <h5 class="post-title"><a href="#">Welcome to Responsive Theme</a></h5>
-                                    <span class="post-category">Design</span>
-                                </div>
-                            </div>
+                            <form class="news-form footer-form">
+                                <input type="text" class="form-input" placeholder="Enter Your Email">
+                                <button type="submit" class="form-button">
+                                    Send
+                                </button>
+                            </form>
                         </div>
-                    </div>
-                    <div class="col-md-3">
-                        <h5 class="footer-title">OUR SITEMAP</h5>
-                        <ul class="sitemap-widget">
-                            <li class="active"><a href="#">Home Page</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">Blog Posts</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3">
-                        <h5 class="footer-title">Newsletter</h5>
-                        <!-- Newsletter Start -->
-                        <div class="news-info">
-                            <p class="news-note white-color">Email newsletters are a powerful tool for communicating with your consumers, which is why there are so many of them out there. So, with all of that competition,</p>
-                        </div>
-                        <form class="news-form footer-form">
-                            <input type="text" class="form-input" placeholder="Enter Your Email">
-                            <button type="submit" class="form-button">
-                                Send
-                            </button>
-                        </form>
+
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-sm-6">
-                        <div class="copyright">
-                            <p>&copy; @DateTime.Now.Year <a href="#">Devroom (Pty) Ltd</a>. All Rights Reserved.</p>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="copyright">
+                                <p>&copy; @DateTime.Now.Year <a href="#">Devroom (Pty) Ltd</a>. All Rights Reserved.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6">
-                        <div class="text-right ft-bottom-right">
-                            <div class="footer-bottom-share">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
-                                </ul>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="text-right ft-bottom-right">
+                                <div class="footer-bottom-share">
+                                    <ul>
+                                        <li><a href="https://www.facebook.com/DevRoomSA/"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="https://www.twitter.com/DevRoom_SA/"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/company/devroom-sa/about/"><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </footer>
+        <!-- Footer End -->
+        @*<div class="body-content">
+        </div>*@
+
+        <!-- start scrollUp  -->
+        <div id="scrollUp">
+            <i class="fa fa-angle-up"></i>
         </div>
-    </footer>
-    <!-- Footer End -->
-    @*<div class="body-content">
-    </div>*@
 
-    <!-- start scrollUp  -->
-    <div id="scrollUp">
-        <i class="fa fa-angle-up"></i>
-    </div>
+        <environment include="Development">
+            @*<script src="~/lib/jquery/dist/jquery.js"></script>
+            <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+            <script src="~/js/site.js" asp-append-version="true"></script>*@
 
-    <environment include="Development">
-        @*<script src="~/lib/jquery/dist/jquery.js"></script>
-        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
-        <script src="~/js/site.js" asp-append-version="true"></script>*@
+            <script src="~/js/modernizr-2.8.3.min.js"></script>
+            <script src="~/js/jquery.min.js"></script>
+            <script src="~/js/bootstrap.min.js"></script>
+            <script src="~/js/rsmenu-main.js"></script>
+            <script src="~/js/jquery.nav.js"></script>
+            <script src="~/js/owl.carousel.min.js"></script>
+            <script src="~/js/owl.carousel.js"></script>
+            <script src="~/js/slick.min.js"></script>
+            <script src="~/js/isotope.pkgd.min.js"></script>
+            <script src="~/js/imagesloaded.pkgd.min.js"></script>
+            <script src="~/js/wow.min.js"></script>
+            <script src="~/js/waypoints.min.js"></script>
+            <script src="~/js/skill.bars.jquery.js"></script>
+            <script src="~/js/jquery.counterup.min.js"></script>
+            <script src="~/js/particles.min.js"></script>
+            <script src="~/js/app.js"></script>
+            <script src="~/js/jquery.mb.YTPlayer.min.js"></script>
+            <script src="~/js/jquery.magnific-popup.min.js"></script>
+            <script src="~/inc/custom-slider/js/jquery.nivo.slider.js"></script>
+            <script src="~/js/plugins.js"></script>
+            <script src="~/js/contact.form.js"></script>
+            <script src="~/js/jquery.singlePageNav.min.js"></script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgC6ZapXdUzFdeQOFhdm_wucwlDMMQ8CQ"></script>
+            <script src="~/js/gmap.js"></script>
+            <script src="~/js/color-style.js"></script>
+            <script src="~/js/main.js"></script>
+        </environment>
+        @*<environment exclude="Development">
+            <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.3.1.min.js"
+                    asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                    asp-fallback-test="window.jQuery"
+                    crossorigin="anonymous"
+                    integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT">
+            </script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+                    asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                    asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                    crossorigin="anonymous"
+                    integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd">
+            </script>
+            <script src="~/js/site.min.js" asp-append-version="true"></script>
+        </environment>*@
 
-        <script src="~/js/modernizr-2.8.3.min.js"></script>
-        <script src="~/js/jquery.min.js"></script>
-        <script src="~/js/bootstrap.min.js"></script>
-        <script src="~/js/rsmenu-main.js"></script>
-        <script src="~/js/jquery.nav.js"></script>
-        <script src="~/js/owl.carousel.min.js"></script>
-        <script src="~/js/owl.carousel.js"></script>
-        <script src="~/js/slick.min.js"></script>
-        <script src="~/js/isotope.pkgd.min.js"></script>
-        <script src="~/js/imagesloaded.pkgd.min.js"></script>
-        <script src="~/js/wow.min.js"></script>
-        <script src="~/js/waypoints.min.js"></script>
-        <script src="~/js/skill.bars.jquery.js"></script>
-        <script src="~/js/jquery.counterup.min.js"></script>
-        <script src="~/js/particles.min.js"></script>
-        <script src="~/js/app.js"></script>
-        <script src="~/js/jquery.mb.YTPlayer.min.js"></script>
-        <script src="~/js/jquery.magnific-popup.min.js"></script>
-        <script src="~/inc/custom-slider/js/jquery.nivo.slider.js"></script>
-        <script src="~/js/plugins.js"></script>
-        <script src="~/js/contact.form.js"></script>
-        <script src="~/js/jquery.singlePageNav.min.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgC6ZapXdUzFdeQOFhdm_wucwlDMMQ8CQ"></script>
-        <script src="~/js/gmap.js"></script>
-        <script src="~/js/color-style.js"></script>
-        <script src="~/js/main.js"></script>
-    </environment>
-    @*<environment exclude="Development">
-        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.3.1.min.js"
-                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
-                asp-fallback-test="window.jQuery"
-                crossorigin="anonymous"
-                integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT">
-        </script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
-                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
-                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
-                crossorigin="anonymous"
-                integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd">
-        </script>
-        <script src="~/js/site.min.js" asp-append-version="true"></script>
-    </environment>*@
-
-    @RenderSection("Scripts", required: false)
+        @RenderSection("Scripts", required: false)
 </body>
 </html>

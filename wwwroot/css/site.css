@@ -14,7 +14,7 @@ body {
 
 /* Carousel */
 .carousel-caption p {
-    font-size: 20px;
+    col-md-5 hidden-sm font-size: 20px;
     line-height: 1.4;
 }
 
